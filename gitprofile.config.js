@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: Miko7799 // Your GitHub org/user name. (Required)
+    username: 'Miko7799' // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -42,14 +42,7 @@ const config = {
       from: '2022',
       to: 'Present',
       companyLink: 'https://Miko7799.github.io/portofolio',
-    },
-    {
-      company: 'Luna',
-      position: '',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    }
   ],
 
   // To hide the `My Projects` section, keep it empty.
