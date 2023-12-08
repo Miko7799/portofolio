@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'Miko7799' // Your GitHub org/user name. (Required)
+    username: 'Miko7799', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -13,7 +13,7 @@ const config = {
   social: {
     linkedin: '',
     twitter: '',
-    mastodon: 'a',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
@@ -24,7 +24,7 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://Miko7799.github.io/portofolio/',
+    website: 'https://Miko7799.github.io/portofolio',
     phone: '',
     email: 'mikoneko7799@gmail.com',
   },
@@ -33,16 +33,58 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Node.js'
+    'PHP',
+    'Laravel',
+    'JavaScript',
+    'React.js',
+    'Node.js',
+    'Nest.js',
+    'MySQL',
+    'PostgreSQL',
+    'Git',
+    'Docker',
+    'PHPUnit',
+    'CSS',
+    'Antd',
+    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Luna',
-      position: 'Isekai',
-      from: '2022',
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
       to: 'Present',
-      companyLink: 'https://Miko7799.github.io/portofolio',
-    }
+      companyLink: 'https://example.com',
+    },
+    {
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
+    },
+  ],
+  /* certifications: [
+    {
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com'
+    },
+  ], */
+  education: [
+    {
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2015',
+      to: '2019',
+    },
+    {
+      institution: 'Institution Name',
+      degree: 'Degree',
+      from: '2012',
+      to: '2014',
+    },
   ],
 
   // To hide the `My Projects` section, keep it empty.
